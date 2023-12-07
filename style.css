@@ -1,0 +1,522 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+* ::selection{
+    color: rgb(184, 52, 52);
+    background-color: white;
+}
+.conatiner{
+    height: 650px;
+    width: auto;
+   /* background-image: url(https://media.istockphoto.com/id/1147384879/photo/company-employees-listening-boss-sitting-at-desk-in-boardroom.jpg?s=612x612&w=0&k=20&c=NOJGSlcJdL9d0PeBITHAs4F_Q2DhA2WgDjxLpGEerFo=); */
+   background-image: url(https://media.istockphoto.com/id/1365105724/photo/multicultural-businesspeople-working-in-an-office-lobby.jpg?s=612x612&w=0&k=20&c=sMX6XxPrtehRp04QhIvhLuG3M8sp4rbuWy47LhvUJhY=);
+    background-size: cover;
+}
+nav{
+    height: 80px;
+    width: auto;
+    display: flex;
+    position: relative;
+    top: 0px;
+    animation-name: navbar;
+}    
+@keyframes navbar {
+    from{
+     
+    }
+    to{
+     
+    }
+}
+.logo{
+    height: 90px;
+    width: 250px;
+    display: flex;
+    margin-right: 400px;
+}
+.logo img{
+    height: 80px;
+    width: 130px;
+}
+.name{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.unorder-list1{
+    display: flex;
+    list-style: none;
+}
+.list1{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list1 a{
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+.span1{
+    color: black;
+    padding-left: 10px;
+    padding-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button1{
+    width: 120px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: rgb(62, 62, 172);
+    color: white;
+}
+.container1{
+    height: 360px;
+    width: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.box1{
+    width: 700px;
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.box2{
+    width: 600px;
+    height: 350px;
+    margin-top: 5px;
+    overflow: hidden;
+    border: solid;
+}    
+.box2 img{
+     height: 350px;
+     width: 600px;
+}
+.h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    color: white;
+}
+.strong1{
+    font-size: 50px;
+    font-variant: small-caps;
+    color:  rgb(27, 27, 221);
+    filter: contrast(10px);
+}
+.button2{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 280px;
+    font-size: 15px;
+}
+.button2:hover{
+    background-color: rgb(62, 62, 172);
+    color: white;
+}
+.container2{
+    height: 220px;
+    width: 70px;
+    background-color: white;
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    border-radius: 5px;
+}
+.container2:hover{
+    border: groove;
+
+}
+.p{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.p:hover{
+    color: rgb(62, 62, 172);
+}
+.container2 a{
+    color: black;
+}
+.container3{
+    height: 350px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+.childdiv{
+    height: 250px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 22px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+.childdiv2{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
+.childdiv2 img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.childdiv3{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
+.childdiv3 img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.about1{
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(2, 2, 39);
+}
+.about2{
+    font-size: 15px;
+    color: black;
+    padding-left: 50px;
+}
+.button3{
+    height: 30px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 130px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}
+.button3:hover{
+    background-color: rgb(62, 62, 172);
+    color: white;
+}
+.name2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 35px
+}
+.name3{
+    padding-left: 35px;
+}
+.container4{
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+}
+.container4 img{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.div{
+    height: 250px;
+    width: 400px;
+    position: relative;
+    left: 700px;
+    bottom: 140px;
+}
+.name4{
+    color: black;
+    font-size: 20px;
+   padding-left: 30px;
+   padding-top: 20px;
+   color: gray;
+}
+.name5{
+    font-size: 25px;
+    padding-left: 60px;
+    padding-top: 10px;
+    color: rgb(62, 62, 172) ;
+
+}
+.name6{
+    text-align: center;
+    padding-top: 50px;
+}
+.button4{
+    height: 40px;
+    font-variant: small-caps;
+    width: 130px;
+    margin-left: 30px;
+    border-radius: 50px;
+    margin-top: 15px;
+    border: none;
+    color: rgb(134, 126, 126);
+}
+.button4:hover{
+    background-color: rgb(62, 62, 172);
+    color: white;
+}
+.container5{
+    height: 350px;
+    width: 1200px;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    gap: 5px;
+}
+.h2{
+    text-align: center;
+    font-size: 35px;
+    font-variant: small-caps;
+    color:  rgb(62, 62, 172);
+}
+#p1{
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.child1{
+     height: 200px;
+     width: 300px;
+     background-image: url(https://media.istockphoto.com/id/1413761479/photo/mature-couple-meeting-financial-advisor-for-investment.jpg?s=612x612&w=0&k=20&c=kKraGQ3d_90VsQVIwAx6mi3gNsiytiLT9jlEbmEh1lE=);
+     background-size: cover;
+     border-radius: 5px;
+}
+.child2{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    background-image: url(https://media.istockphoto.com/id/1129886160/photo/discussing-and-planing-in-the-office.jpg?s=612x612&w=0&k=20&c=JHVOz3kO0Kum6bU0jzHOawEtrEx0OqFvHVzSoR4V198=);
+    background-size: cover;
+    border-radius: 5px;
+}
+.child3{
+    height: 200px;
+    width: 300px ;
+    position: relative;
+    right: 10px;
+    background-image: url(https://media.istockphoto.com/id/629303228/photo/im-happy-to-explain.jpg?s=612x612&w=0&k=20&c=8mG6jovBePN9-Q-rayRH4dkUduI-ggFaPEfeJ_6NnYM=);
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+.child4{
+    height: 200px;
+    width: 300px ;
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1152020732/photo/male-professionals-working-at-creative-office.jpg?s=612x612&w=0&k=20&c=Aiy__n1oWFXhY4JkXCzY-9_UYfupzbzBUptQY6P_OA0=);
+}
+.workname{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: 220px;
+    color: rgb(4, 4, 37);
+}
+.container6{
+    height: 350px;
+    width: 1200px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+}
+.child5{
+    height: 200px;
+    width: 300px ;
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1323647411/photo/business-visual-data-analyzing-technology-by-creative-computer-software.jpg?s=612x612&w=0&k=20&c=Jyobo02SSOqy8WzEK3AEZJLcu9So_q-otI0NeRGmIL4=);
+}
+.child6{
+    height: 200px;
+    width: 300px ;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1319763433/photo/multiethnic-couple-handshake-with-consultant-at-home.jpg?s=612x612&w=0&k=20&c=uW5-DzuIB5mrQNxN_j_fd6QjVAmtdbeTZf7geXPlRsA=);
+}
+.child7{
+    height: 200px;
+    width: 300px ;
+    position: relative;
+    top: 50px;
+    background-size: cover;
+    border-radius: 5px;
+    background-image: url(https://media.istockphoto.com/id/1205694653/photo/business-people-discussing-over-new-business-project-in-office.jpg?s=612x612&w=0&k=20&c=lTBK7LcgHDimiRWrBqdp9qK7zZmK7MFzeixsolyDDdU=);
+}
+.child8{
+    height: 200px;
+    width: 300px ;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1363104915/photo/presentation-in-multi-ethnic-office-conference-room-meeting-of-diverse-young-entrepreneurs.jpg?s=612x612&w=0&k=20&c=AiIsOa78mSwtrgdxpfXZF0ScwLhwxWUisT6QQ-95jBk=);
+}
+.container7{
+    height: 800px;
+    width: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.boxx1{
+    height: 400px;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: so;
+}
+.boxx2{
+    height: 450px;
+    width: 500px;
+    margin: auto;
+    right: 50px;
+    border-radius: 5px;
+}
+.head1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(4, 4, 37);
+    padding-top: 50px;
+    
+}
+.head2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    font-style: italic;
+    color:  rgb(62, 62, 172);
+}
+.boxx1 img{
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 23px;
+    
+}
+.para{
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.childdd img{
+    height: 30px;
+    margin-top: 60px;
+}
+.spanside{
+    font-size: 30px;
+    padding-left: 25px;
+    font-variant: small-caps;
+    color: rgb(4, 4, 37);
+}
+.workabout{
+    padding-left: 30px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-top: 5px;
+}
+.workabout::first-line{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(4, 4, 37);
+}
+.workabout::first-letter{
+    color:  rgb(62, 62, 172);
+    font-size: 30px;
+}
+.meterdiv{
+    height: 50px;
+    width: 450px;
+    margin: auto;
+    margin-top: 20px;
+}
+.lable{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(6, 6, 54);
+    
+}
+.meter{
+    width: 250px;
+    border: groove;
+    height: 25px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 50px;
+}
+.container9{
+    height: 300px;
+    background-image: url(https://media.istockphoto.com/id/901579932/photo/defocused-company-meeting.jpg?s=612x612&w=0&k=20&c=QkIMC82SpInetE3ZJG8F5tPEQZzJ9agKx4drxDbStgc=);
+    background-size: cover;
+}
+.headd{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    color: rgb(6, 6, 54);
+}
+em{
+    color:  rgb(62, 62, 172);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=email]{
+    height: 50px;
+    width: 350px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 420px;
+}
+.aboutt{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button5{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.button5:hover{
+    background-color: rgb(62, 62, 172) ;
+}
